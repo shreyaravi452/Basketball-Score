@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULil';
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100vh;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+ 
+#home-score {
+    border: 3px solid brown;
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+    display: block;
+    background-color: ivory;
+}
+#hs {
+    text-align: center;
+    line-height: 150px;
+    font-size: 70px;
+}
+#guest-score {
+    border: 3px solid brown;
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+    display: block;
+    background-color: ivory;
+}
+#gs {
+    text-align: center;
+    line-height: 150px;
+    font-size: 70px;
+}
+#home-heading {
+    font-size: 35px;
+}
+#guest-heading {
+    font-size: 35px;
+}
+
+button {
+    border: 3px solid brown;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    background-color: ivory;
+    font-size: 25px;
+}
+
+.newgamediv {
+    margin-left: 50px;
+}
+#new-game {
+    border: 3px solid brown;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    background-color: ivory;
+    font-size: 25px;
+    margin: 0;
+}
